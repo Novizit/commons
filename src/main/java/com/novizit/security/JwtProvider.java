@@ -21,7 +21,7 @@ public class JwtProvider {
     @Value("${jwt.header:Authorization}")
     private String authorizationHeader;
 
-    @Value("${jwt.secret:novizitnovizitnovizitnovizit@202320232023}")
+    @Value("${jwt.secret:novizitnovizitnovizitnovizitnovizit@202320232023}")
     private String secretKey;
 
     @Value("${jwt.expiration:864000000}")

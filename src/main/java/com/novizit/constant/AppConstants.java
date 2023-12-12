@@ -34,14 +34,14 @@ public class AppConstants{
     
     public static final long MILLI_SECOND_TO_MINUTES_DIVISOR = 60000;
     public static final long MINUTES_TO_MILLI_SECONDS = 10000;
-
-    
     public static final int MAX_FAILED_ATTEMPTS = 3;
     
     public static final long LOCK_TIME_DURATION = 24 * 60 * 60 * 1000; // 24 hours
+
     
     public static final String LOCK_MESSAGE = "Your account has been locked due to 3 failed attempts. It will be unlocked after 24 hours.";
     public static final String LOCK_WARNING_MESSAGE = 
             "You have reached max login attempt limits. One more wrong attempt will lock your account.";
+	public static final String UNLOCK_MESSAGE = "unlocked";
     
 }

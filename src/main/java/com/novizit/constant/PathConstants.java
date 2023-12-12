@@ -11,7 +11,7 @@ public class PathConstants {
     public static final String WEBSOCKET = "/websocket";
     public static final String WS_SEND_MESSAGE = "/send/message";
     
-    public static final String APP_MESSAGE = API_V1 + "/novizit";
+    public static final String APP_MESSAGE = API_V1;
     public static final String MUTE = "/mute";
     public static final String CHAT = "/chat";
     public static final String LIST = "/list";
@@ -29,9 +29,6 @@ public class PathConstants {
     public static final String MESSAGE_ID = "/{messageId}";
     public static final String FORWARD = "/forward";
     
-    public static final String COMPANY = "/company";
-    public static final String COMPANY_ID = "/{companyId}";
-    public static final String NUMBER = "/number";
     public static final String UPDATE = "/update";
     public static final String UPDATE_COUNT = UPDATE + "/count";
     public static final String COUNT_PLACEHOLDER = "/{count}";
